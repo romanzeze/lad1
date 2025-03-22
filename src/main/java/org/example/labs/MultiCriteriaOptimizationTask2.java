@@ -33,8 +33,8 @@ public class MultiCriteriaOptimizationTask2 {
         int bestMinimax = bestMachineByMinimax(machines);
 
         System.out.println("\n===== Найкращі верстати за різними критеріями =====");
-        System.out.println("Найкращий станок за адитивною згорткою: Станок " + (bestAdditive + 1));
-        System.out.println("Найкращий станок за мультиплікативною згорткою: Станок " + (bestMultiplicative + 1));
+        System.out.println("Найкращий станок за адитивною згорткою: Станок " + (bestAdditive ));
+        System.out.println("Найкращий станок за мультиплікативною згорткою: Станок " + (bestMultiplicative ));
         System.out.println("Найкращий верстат за максимінним критерієм: Станок " + (bestMaximin + 1));
         System.out.println("Найкращий верстат за мінімаксним критерієм: Станок " + (bestMinimax + 1));
     }

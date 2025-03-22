@@ -17,7 +17,7 @@ public class MultiCriteriaOptimizationTask1 {
         System.out.println("\nНормалізовані дані:");
         printMachines(machines);
 
-        double[] weights = {0.4, 0.35, 0.25};
+        double[] weights = {0.1, 0.4, 0.5};
         System.out.println("\nКоефіцієнти важливості: " + Arrays.toString(weights));
 
         int bestAdditive = bestMachineByAdditive(machines, weights);
