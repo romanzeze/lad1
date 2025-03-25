@@ -1,4 +1,4 @@
-package org.example.labs;
+package org.example.labs.lab1;
 
 import java.util.Arrays;
 
